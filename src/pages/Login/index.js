@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import './styles.css'
-import apiConfig from '../../config/api-rest'
+import './styles.css';
+import apiConfig from '../../config/api-rest';
+import { Redirect } from "react-router-dom";
 
 class LoginForm extends Component {
 
